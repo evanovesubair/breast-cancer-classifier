@@ -1,0 +1,25 @@
+{
+  "Logistic Regression": {
+    "baseline_cv_f1_mean": 0.9843,
+    "best_params": {
+      "clf__C": 0.1
+    },
+    "tuned_cv_f1": 0.9845,
+    "test_accuracy": 0.9737,
+    "test_precision": 0.9726,
+    "test_recall": 0.9861,
+    "test_f1": 0.9793
+  },
+  "Random Forest": {
+    "baseline_cv_f1_mean": 0.9634,
+    "best_params": {
+      "clf__max_depth": null,
+      "clf__n_estimators": 300
+    },
+    "tuned_cv_f1": 0.9668,
+    "test_accuracy": 0.9474,
+    "test_precision": 0.9583,
+    "test_recall": 0.9583,
+    "test_f1": 0.9583
+  }
+}
